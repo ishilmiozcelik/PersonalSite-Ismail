@@ -2,12 +2,6 @@
 box-sizing: border-box;
 }
 
-
-.container{
-margin: 0px;
-padding: 0px;
-
-}
 body{
 background-color: #01334a;
 margin: 0px;
@@ -16,8 +10,31 @@ padding: 0px;
 
 
 .navbar{
-    display: flex;
-    gap: 50px;
-    justify-content: space-between;
-} 
+display: flex;
+justify-content: space-between;
+}
+
+.navbar a{
+text-decoration: none;
+margin-top: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+color: #fff;;
+}
+
+
+.navbar a:hover{
+color: gray;
+transition: 0.6s ease;
+}
+
+.navbar a:first-child {
+    margin-right: auto;
+}
+
+.navbar a:not(:first-child) {
+    margin-left: 60px;
+}
+
+
 
