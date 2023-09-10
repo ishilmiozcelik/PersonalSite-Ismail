@@ -22,7 +22,6 @@ font-size: 20px;
 color: #fff;;
 }
 
-
 .navbar a:hover{
 color: gray;
 transition: 0.6s ease;
@@ -35,6 +34,5 @@ transition: 0.6s ease;
 .navbar a:not(:first-child) {
     margin-left: 60px;
 }
-
 
 
