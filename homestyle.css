@@ -1,0 +1,78 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+background-color: #01334a;
+margin: 0px;
+padding: 0px;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+position: sticky;
+}
+
+.navbar a{
+text-decoration: none;
+margin-top: 20px;
+font-size: 15px;
+color: #fff;;
+}
+
+.navbar a:hover{
+color:cadetblue;
+transition: 0.8s ease;
+}
+
+.navbar a:first-child {
+margin-right: auto;
+}
+
+.navbar a:not(:first-child) {
+margin-left: 60px;
+}
+
+.main-elements{
+margin-top: 100px;
+display: flex;
+}
+
+.main-texts h2, p{
+color: #fff;
+padding-bottom: 40px;
+width: 90%;
+}
+
+.btn{
+margin: 0px;
+padding: 0px;
+}
+
+button{
+color: #fff;
+background-color: transparent;
+border: solid 1px #fff;
+padding: 10px;
+border-radius: 20px;
+}
+
+button:hover{
+color: cadetblue;
+border-color: cadetblue;
+transition: 0.5s ease-in-out;
+}
+
+img{
+width: 300px;
+border-radius: 50px;
+opacity: 0.6;
+
+}
+
+img:hover{
+opacity: 1;
+transform: scale(1.05);
+transition: 0.5s ease-in-out;
+}
