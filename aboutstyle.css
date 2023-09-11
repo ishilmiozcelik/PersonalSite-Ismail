@@ -68,7 +68,6 @@ img{
 width: 300px;
 border-radius: 50px;
 opacity: 0.6;
-
 }
 
 img:hover{
@@ -80,17 +79,12 @@ transition: 0.5s ease-in-out;
 
 .skill-container{
 display: flex;
-
 }
-
 
 .skillsection-1, .skillsection-2{
-
-    width: 50%;
-    padding-right: 10px;
+width: 50%;
+padding-right: 10px;
 }
-
-
 
 p{
 display: inline;
@@ -109,7 +103,6 @@ display: flex;
 list-style: none;
 margin: 0px;
 padding: 0px;
-
 }
 
 li{
