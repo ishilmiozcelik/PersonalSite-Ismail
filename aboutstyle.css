@@ -80,12 +80,13 @@ transition: 0.5s ease-in-out;
 
 .skill-container{
 display: flex;
+
 }
 
 
 .skillsection-1, .skillsection-2{
 
-    width: 40%;
+    width: 50%;
     padding-right: 10px;
 }
 
@@ -93,4 +94,32 @@ display: flex;
 
 p{
 display: inline;
+}
+
+.progress{
+margin-bottom: 20px;
+}
+
+.progress-bar{
+background-color: gray;
+}
+
+.parent {
+display: flex;
+list-style: none;
+margin: 0px;
+padding: 0px;
+
+}
+
+li{
+margin-top: 10px;    
+border: 0.5px solid #fff;
+border-radius: 20px;
+text-align: center;
+width: 20%;
+height: 60px;
+margin-right: 10px;
+color: #fff;
+opacity: 0.9;
 }
