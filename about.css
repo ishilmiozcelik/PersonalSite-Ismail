@@ -81,6 +81,7 @@
   width: 100%;
   overflow: hidden;
   font-weight: 500;
+  border: 1px solid red;
  }
 
  .collapsible input{
