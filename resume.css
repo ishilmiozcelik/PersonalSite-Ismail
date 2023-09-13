@@ -69,7 +69,6 @@
 
 
    .wrapper{
-   
     display: flex;
     padding-top: 50px;
    }
@@ -111,7 +110,6 @@
 
    .collapsible input:checked + label:after{
     transform: rotate(90deg);
-
    }
 
    .collapsible-text{
@@ -123,10 +121,90 @@
    }
 
    .collapsible input:checked ~ .collapsible-text{
-max-height: 300px;
-padding-bottom: 25px;
-background: #fff;
-color: #2a0814;
-
-
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: #fff;
+    color: #2a0814;
    }
+
+
+
+   .collapsible-2{
+    width: 100%;
+    overflow: hidden;
+    font-weight: 500;
+   
+   }
+
+   .collapsible-2 input{
+    display: none;
+   }
+
+   .collapsible-2 label{
+    position: relative;
+    font-weight: 600;
+    background: transparent;
+    color: blue;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 4px;
+    z-index: 1;
+   }
+   
+   .collapsible-2 label:after{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+    background: red no-repeat 0 0;
+    transition: all 0.9s ease;
+   }
+
+   .collapsible-2 input:checked + label:after{
+    transform: rotate(90deg);
+   }
+
+   .collapsible-text-2{
+    max-height: 1px;
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 1.4;
+    transition: all 0.9s ease;
+   }
+
+   .collapsible-2 input:checked ~ .collapsible-text-2{
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: #fff;
+    color: #2a0814;
+   }
+
+   .skill-container{
+    display: flex;
+    }
+    
+    .skillsection-1, .skillsection-2{
+    width: 50%;
+    padding-right: 10px;
+    }
+    
+    h1{
+    color: #fff;
+    
+    }
+    
+    p{
+    display: inline;
+    }
+    
+    .progress{
+    margin-bottom: 20px;
+    }
+    
+    .progress-bar{
+    background-color: rgb(87, 86, 86); 
+    }
