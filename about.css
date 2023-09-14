@@ -81,7 +81,14 @@
   }
 
 ul li{
-margin-left: 20px;
+
+border: 1px solid white;
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 40px;
+list-style: none;
+text-align: center;
+
 }
 
 
@@ -174,7 +181,7 @@ margin-left: 20px;
  }
  
  .collapsible-2 label:after{
-  content: ">";
+  content: "+";
   font-size: 25px;
   position: absolute;
   right: 10px;
@@ -185,7 +192,8 @@ margin-left: 20px;
  }
 
  .collapsible-2 input:checked + label:after{
-  transform: rotate(90deg);
+  content: "-";
+  transition: all 0.9s ease-in-out;
  }
 
  .collapsible-text-2{
@@ -223,7 +231,7 @@ margin-left: 20px;
   
   .progress{
   margin-bottom: 20px;
-  height: 6px;
+  height: 12px;
   }
   
   .progress-bar{
