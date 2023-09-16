@@ -73,7 +73,7 @@
     }
 
     .education, .bootcamp, .language-proficiency{
-    margin-top: 40px;
+    margin-top: 50px;
     }
 
     ul{
@@ -83,21 +83,20 @@
     }
 
     h5{
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 0px;
+    color: #c0c0c0;
     }
 
     .company{
-    color:#d9daf1;
+    color: rgb(174, 174, 174);
     font-size: 15px;
     font-weight: 450; 
     }
 
     p{
-    font-weight: 300;
     margin-top: 5px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+
     }
 
    
