@@ -85,11 +85,11 @@
     h5{
     font-weight: 500;
     margin-bottom: 0px;
-    color: #c0c0c0;
+    /* color: #c0c0c0; */
     }
 
     .company{
-    color: rgb(174, 174, 174);
+    /* color: rgb(174, 174, 174); */
     font-size: 15px;
     font-weight: 450; 
     }
