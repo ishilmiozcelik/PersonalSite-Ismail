@@ -78,28 +78,25 @@
 
     ul{
     padding-left: 20px;
-    padding-top: 0px;
-    margin-top: 0px;
+    color:rgb(189, 202, 202);
     }
 
-    h4{
-      
-    }
 
     h5{
     font-weight: 500;
     margin-bottom: 0px;
-    color:rgb(217, 249, 249);
+    color:rgb(255, 255, 255);
     }
 
     .company{
     font-size: 15px;
     font-weight: 450; 
-    color:rgb(220, 254, 254);
+    color:rgb(255, 255, 255);
     }
 
     p{
     margin-top: 5px;
+    color:rgb(189, 202, 202);
 
     }
 
