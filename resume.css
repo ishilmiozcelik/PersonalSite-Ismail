@@ -78,25 +78,26 @@
 
     ul{
     padding-left: 20px;
-    color:rgb(189, 202, 202);
+    opacity: 0.7;
+    color: rgb(205, 205, 216);
     }
 
 
     h5{
     font-weight: 500;
     margin-bottom: 0px;
-    color:rgb(255, 255, 255);
+      opacity: 1;
     }
 
     .company{
     font-size: 15px;
     font-weight: 450; 
-    color:rgb(255, 255, 255);
+    opacity: 1;
     }
 
     p{
     margin-top: 5px;
-    color:rgb(189, 202, 202);
+      opacity: 0.8;
 
     }
 
